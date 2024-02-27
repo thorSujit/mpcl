@@ -1,5 +1,8 @@
-import React from 'react'
-import './navbar.scss'
+import React from 'react';
+import './navbar.scss';
+// import { mdOutlineTravelExplore } from 'react-icons/md';
+import { AiFillCloseCircle } from 'react-icons/ai';
+
 const Navbar = () => {
     return (
         <section className="navBarSection">
@@ -22,10 +25,18 @@ const Navbar = () => {
                         <li className="navItem">
                             <a href="#" className="navLink">Career</a></li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Home</a></li>
+                            <a href="#" className="navLink">Investors</a></li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Home</a></li>
+                            <button className="btn">
+                                <a href="" >BLOG</a>
+                            </button>
+                        
+                        </li>
                     </ul>
+
+                    <div className="classNavbar">
+                         <AiFillCloseCircle className='icon'/>
+                    </div>
                 </div>
             </header>
         </section>
